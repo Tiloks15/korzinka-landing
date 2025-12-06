@@ -972,26 +972,48 @@ h1, h2, h3, .logo {
         text-align: center;
     }
     
+    .download-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
     .download-buttons {
         justify-content: center;
         flex-direction: column;
         align-items: center;
         width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
     }
     
     .store-btn {
         width: 100%;
-        max-width: 280px;
         justify-content: center;
+    }
+    
+    .download-qr {
+        margin-top: var(--spacing-lg);
     }
     
     .footer-grid {
         text-align: center;
     }
     
+    .footer-brand {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
     .footer-brand .logo {
         justify-content: center;
         margin-bottom: var(--spacing-md);
+    }
+    
+    .footer-brand p {
+        max-width: 300px;
     }
     
     .social-links {
