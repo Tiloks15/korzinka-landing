@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+    <meta name="description" content="Корзинка - приложение для заказа свежих фермерских продуктов с доставкой на дом. Мясо, овощи, фрукты, молочные продукты от проверенных фермеров.">
+    <meta name="keywords" content="фермерские продукты, доставка продуктов, натуральные продукты, органические продукты, свежие овощи, свежие фрукты">
+    <meta name="author" content="Корзинка">
+    <meta name="theme-color" content="#00352E">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Корзинка - Фермерские продукты с доставкой">
+    <meta property="og:description" content="Свежие натуральные продукты от проверенных фермеров с доставкой на дом">
+    <meta property="og:image" content="og-image.png">
+    
+    <title>Корзинка - Фермерские продукты с доставкой</title>
+    
+    <!-- Preconnect для ускорения загрузки шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Корзинка" class="logo-icon">
+                <span>Корзинка</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#features">Преимущества</a></li>
+                <li><a href="#how-it-works">Как это работает</a></li>
+                <li><a href="#products">Продукты</a></li>
+                <li><a href="#download">Скачать</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Герой секция -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Свежие фермерские продукты <span class="accent">прямо к вашей двери</span></h1>
+                <p class="hero-description">Откройте для себя натуральные продукты от проверенных фермеров. Без посредников, без химии, только свежесть и качество.</p>
+                <div class="hero-buttons">
+                    <a href="#download" class="btn btn-primary">Скачать приложение</a>
+                    <a href="#how-it-works" class="btn btn-secondary">Узнать больше</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Фермеров</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Продуктов</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">10K+</span>
+                        <span class="stat-label">Клиентов</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <img src="screenshot.png" alt="Приложение Корзинка" class="app-screenshot">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg-decoration"></div>
+    </section>
+
+    <!-- Преимущества -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Почему выбирают <span class="accent">Корзинку</span></h2>
+            <p class="section-subtitle">Мы заботимся о качестве каждого продукта</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌱</div>
+                    <h3>100% Натуральное</h3>
+                    <p>Все продукты выращены без химикатов и ГМО. Только органическое земледелие.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Быстрая доставка</h3>
+                    <p>Доставляем в день сбора урожая. Свежесть гарантирована.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">👨‍🌾</div>
+                    <h3>Проверенные фермеры</h3>
+                    <p>Каждый фермер проходит проверку качества и сертификацию.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Честные цены</h3>
+                    <p>Без наценок посредников. Вы платите напрямую фермерам.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📦</div>
+                    <h3>Готовые боксы</h3>
+                    <p>Подборки продуктов для завтрака, обеда или правильного питания.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⭐</div>
+                    <h3>Программа лояльности</h3>
+                    <p>Накапливайте бонусы и получайте скидки на следующие заказы.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Как это работает -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Как это <span class="accent">работает</span></h2>
+            <p class="section-subtitle">Всего 4 простых шага до свежих продуктов</p>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Скачайте приложение</h3>
+                        <p>Установите Корзинку на свой смартфон</p>
+                    </div>
+                </div>
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Выберите продукты</h3>
+                        <p>Просматривайте каталог и добавляйте в корзину</p>
+                    </div>
+                </div>
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Оформите заказ</h3>
+                        <p>Укажите адрес и удобное время доставки</p>
+                    </div>
+                </div>
+                <div class="step-line"></div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Получите свежесть</h3>
+                        <p>Наслаждайтесь натуральными продуктами</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Категории продуктов -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Наши <span class="accent">продукты</span></h2>
+            <p class="section-subtitle">Широкий выбор фермерских продуктов</p>
+            
+            <div class="products-grid">
+                <div class="product-category">
+                    <div class="category-icon">🥩</div>
+                    <h3>Мясо</h3>
+                    <p>Курица, свинина, баранина</p>
+                </div>
+                <div class="product-category">
+                    <div class="category-icon">🥕</div>
+                    <h3>Овощи</h3>
+                    <p>Помидоры, огурцы, перец</p>
+                </div>
+                <div class="product-category">
+                    <div class="category-icon">🍎</div>
+                    <h3>Фрукты</h3>
+                    <p>Яблоки, груши, сливы</p>
+                </div>
+                <div class="product-category">
+                    <div class="category-icon">🥛</div>
+                    <h3>Молочные</h3>
+                    <p>Молоко, творог, сметана</p>
+                </div>
+                <div class="product-category">
+                    <div class="category-icon">🍞</div>
+                    <h3>Хлеб</h3>
+                    <p>Лаваш, батон, ржаной</p>
+                </div>
+                <div class="product-category">
+                    <div class="category-icon">🥚</div>
+                    <h3>Яйца</h3>
+                    <p>Куриные, перепелиные</p>
+                </div>
+                <div class="product-category">
+                    <div class="category-icon">🧃</div>
+                    <h3>Соки</h3>
+                    <p>Яблочный, томатный</p>
+                </div>
+                <div class="product-category">
+                    <div class="category-icon">🍯</div>
+                    <h3>Мёд</h3>
+                    <p>Липовый, цветочный</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Скачать приложение -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2>Скачайте <span class="accent">Корзинку</span> сегодня</h2>
+                <p>Присоединяйтесь к тысячам довольных клиентов</p>
+                <div class="download-buttons">
+                    <a href="#" class="store-btn">
+                        <span class="store-icon">🍎</span>
+                        <div class="store-text">
+                            <span class="store-label">Загрузите в</span>
+                            <span class="store-name">App Store</span>
+                        </div>
+                    </a>
+                    <a href="#" class="store-btn">
+                        <span class="store-icon">▶️</span>
+                        <div class="store-text">
+                            <span class="store-label">Доступно в</span>
+                            <span class="store-name">Google Play</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="download-qr">
+                <div class="qr-code">
+                    <div class="qr-placeholder">QR</div>
+                </div>
+                <p>Отсканируйте QR-код</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="logo.png" alt="Корзинка" class="logo-icon">
+                        <span>Корзинка</span>
+                    </a>
+                    <p>Фермерские продукты с доставкой на дом. Свежесть и качество в каждом заказе.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Telegram">📱</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="VK">💬</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#features">Преимущества</a></li>
+                        <li><a href="#how-it-works">Как это работает</a></li>
+                        <li><a href="#products">Продукты</a></li>
+                        <li><a href="#download">Скачать</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Информация</h4>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Фермеры</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p>📞 +7 (999) 123-45-67</p>
+                    <p>✉️ info@korzinka.ru</p>
+                    <p>🕐 Пн-Вс: 8:00 - 22:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Корзинка. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
