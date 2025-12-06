@@ -778,8 +778,15 @@ h1, h2, h3, .logo {
 }
 
 .footer-brand .logo {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
     margin-bottom: var(--spacing-sm);
+}
+
+.footer-brand .logo-icon {
+    width: 40px;
+    height: 40px;
 }
 
 .footer-brand p {
@@ -967,10 +974,24 @@ h1, h2, h3, .logo {
     
     .download-buttons {
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .store-btn {
+        width: 100%;
+        max-width: 280px;
+        justify-content: center;
     }
     
     .footer-grid {
         text-align: center;
+    }
+    
+    .footer-brand .logo {
+        justify-content: center;
+        margin-bottom: var(--spacing-md);
     }
     
     .social-links {
